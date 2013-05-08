@@ -1,0 +1,21 @@
+# Do not track build objects.
+build_production/
+build_debug/
+*.ali
+*.o
+
+# Do not track built executables
+bin/
+
+# Do not track temporary and backup files from editors:
+\#*#
+*~
+.#*#
+.*.swp
+
+# Do not track Jacobs merge script
+test_and_push_to_master
+
+# Do not track configuration files:
+.config
+.config.sh
